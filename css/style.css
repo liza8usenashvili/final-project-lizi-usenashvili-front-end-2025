@@ -54,18 +54,28 @@ table {
 }
 
 nav {
-  width: 1500px;
-  height: 80px;
+  width: 1520px;
+  height: 90px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: fixed;
+  background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(228, 247, 243));
+  border-bottom: 2px solid rgb(0, 185, 154);
 }
 nav h1 {
   font-family: "BPG Mikheil Stefane", sans-serif;
-  font-size: 60px;
+  font-size: 70px;
   vertical-align: top;
   margin-left: 50px;
-  margin-top: 30px;
+  margin-top: 10px;
+  opacity: 100%;
+  font-weight: 900;
+}
+nav h1:hover {
+  font-size: 75px;
+  transition-duration: 2s;
+  color: rgb(0, 72, 48);
 }
 nav #atag {
   display: flex;
@@ -79,20 +89,60 @@ nav #atag a {
   text-decoration: none;
   font-family: "BPG Mikheil Stefane", sans-serif;
   font-weight: 800;
-  font-size: 20px;
-  color: rgb(0, 121, 101);
+  font-size: 22px;
+  color: rgb(0, 0, 0);
 }
 nav #atag a:hover {
-  color: rgb(0, 72, 48);
+  color: rgb(32, 146, 108);
 }
-nav input {
+nav #search {
+  display: flex;
+  flex-direction: row;
+}
+nav #search #lupa {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(61, 163, 150);
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+nav #search #lupa i {
+  font-size: 24px;
+  color: rgb(0, 58, 51);
+  position: absolute;
+}
+nav #search #lupa:hover {
+  background-color: rgb(75, 195, 155);
+}
+nav #search input {
   height: 40px;
   width: 300px;
-  border-radius: 20px;
+  border-radius: 10px;
   border-color: rgb(190, 197, 195);
   padding-left: 20px;
   padding-right: 20px;
   font-size: 16px;
   vertical-align: top;
   margin-top: 20px;
+}
+
+header {
+  position: relative;
+  width: 1520px;
+  height: 700px;
+  z-index: -1;
+}
+header img {
+  width: 1520px;
+  height: 700px;
+  object-fit: cover;
+}
+
+main {
+  margin-top: 50px;
 }/*# sourceMappingURL=style.css.map */
