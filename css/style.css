@@ -353,7 +353,7 @@ main #abzaciotxi #imgs img:hover {
   display: flex;
   flex-direction: row;
   gap: 40px;
-  margin-top: 40px;
+  margin-top: 20px;
   justify-content: center;
 }
 #mun .bro {
@@ -372,6 +372,8 @@ main #abzaciotxi #imgs img:hover {
   width: 300px;
   height: 130px;
   object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 #mun .bro .gerbi {
   width: 80px;
@@ -379,6 +381,7 @@ main #abzaciotxi #imgs img:hover {
   z-index: 2;
   margin-left: 110px;
   margin-top: 40px;
+  border-radius: 5px;
 }
 #mun .bro .gerbi:hover {
   scale: 1.2;
@@ -393,8 +396,8 @@ main #abzaciotxi #imgs img:hover {
   margin: auto;
 }
 #mun .bro p:hover {
-  font-size: 24px;
-  transition-duration: 0.2s;
+  font-size: 26px;
+  transition-duration: 0.5s;
 }
 #mun #ori {
   display: flex;
@@ -402,4 +405,22 @@ main #abzaciotxi #imgs img:hover {
   gap: 40px;
   margin-top: 40px;
   justify-content: center;
+}
+
+#ruka {
+  width: 1520px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+#ruka h1 {
+  margin-left: 100px;
+  margin-bottom: 30px;
+  font-family: "ALK Sanet", sans-serif;
+  font-weight: 600;
+  color: rgb(75, 75, 75);
+}
+#ruka iframe {
+  width: 1520px;
+  height: 600px;
 }/*# sourceMappingURL=style.css.map */

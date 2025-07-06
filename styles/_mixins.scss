@@ -1,0 +1,13 @@
+@mixin h1 {
+    font-family: "ALK Sanet", sans-serif;
+    font-weight: 600;
+    color: rgb(75, 75, 75);
+}
+
+@mixin p {
+    font-family: "BPG Algeti", sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(116, 116, 116);
+}
