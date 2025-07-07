@@ -423,4 +423,82 @@ main #abzaciotxi #imgs img:hover {
 #ruka iframe {
   width: 1520px;
   height: 600px;
+}
+
+#ravnaxot {
+  display: flex;
+  flex-direction: column;
+  width: 1520px;
+  margin-top: 80px;
+}
+#ravnaxot h1 {
+  font-family: "ALK Sanet", sans-serif;
+  font-weight: 600;
+  color: rgb(75, 75, 75);
+  margin-left: 100px;
+}
+#ravnaxot #cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 40px;
+}
+#ravnaxot #one {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
+}
+#ravnaxot .card {
+  width: 300px;
+  height: 350px;
+  background-color: white;
+  box-shadow: 5px 5px 10px 2px #8b8b8b;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  display: flex;
+}
+#ravnaxot img {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+#ravnaxot h2 {
+  font-family: "ALK Sanet", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: rgb(47, 47, 47);
+  position: absolute;
+  margin-top: 220px;
+  margin-left: 20px;
+}
+#ravnaxot p {
+  font-family: "ALK Sanet", sans-serif;
+  color: rgb(47, 47, 47);
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 280px;
+  font-size: 15px;
+  font-weight: 800;
+}
+#ravnaxot h3 {
+  font-family: "ALK Sanet", sans-serif;
+  color: rgb(47, 47, 47);
+  position: absolute;
+  margin-left: 20px;
+  font-weight: 800;
+  margin-top: 310px;
+  font-size: 14px;
+}
+#ravnaxot #two {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
