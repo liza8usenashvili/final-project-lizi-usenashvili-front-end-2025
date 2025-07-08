@@ -47,7 +47,11 @@ h1:hover {
     }
 
          a:hover{
-          color: rgb(32, 146, 108);
+          color: rgb(32, 157, 115);
+        }
+
+        #active {
+            color: rgb(0, 141, 106);
         }
 
 
@@ -524,6 +528,10 @@ img:hover {
             position:absolute;
             margin-top: 220px;
             margin-left: 20px;
+            
+            &:hover {
+                color: rgb(0, 113, 79)
+            }
         }
 
         p{
@@ -534,6 +542,10 @@ img:hover {
             margin-top: 280px;
             font-size: 15px;
             font-weight: 800;
+
+            &:hover {
+                color: rgb(0, 130, 91)
+            }
         }
         
         h3 {
@@ -544,9 +556,13 @@ img:hover {
             font-weight: 800;
             margin-top: 310px;
             font-size: 14px;
+
+            &:hover {
+                color: rgb(0, 141, 112)
+            }
         }
 
-#two {
+.two {
     display: flex;
     flex-direction: row;
     gap: 40px;

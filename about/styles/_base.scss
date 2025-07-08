@@ -1,0 +1,165 @@
+
+nav {
+    width: 1520px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(228, 247, 243));
+    border-bottom: 2px solid rgb(95, 161, 150);
+    z-index: 10;
+
+    
+    h1 {
+        font-family: "BPG Mikheil Stefane", sans-serif;
+        font-size: 65px;
+        vertical-align: top;
+        margin-left: 80px;
+        margin-top: 10px;
+        opacity: 100%;
+        font-weight: 900;
+        color: rgb(58, 58, 58);
+    }
+
+h1:hover {
+    font-size: 75px;
+    transition-duration: 2s;
+    color:rgb(0, 72, 48);
+}
+
+    #atag {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        margin-right: 40px;
+        margin-top: 30px;
+        vertical-align: top;
+
+
+            a {
+        text-decoration: none;
+        font-family: "BPG Mikheil Stefane", sans-serif;
+        font-weight: 800;
+        font-size: 22px;
+        color: rgb(77, 77, 77);
+    }
+
+         a:hover{
+          color: rgb(32, 157, 115);
+        }
+
+        #active {
+            color: rgb(0, 141, 106);
+        }
+
+
+    }
+
+
+
+#search {
+display: flex;
+flex-direction: row;
+
+#lupa {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(61, 163, 150);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 20px;
+
+    i {
+        font-size: 24px;
+        color: rgb(0, 58, 51);
+        position: absolute;
+    }
+}
+
+   #lupa:hover {
+        background-color: rgb(75, 195, 155);
+    }
+
+
+input {
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border-color: rgb(190, 197, 195);
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    vertical-align: top;
+    margin-top: 20px;
+}
+}
+
+}
+
+
+header {
+     position: relative;
+     width: 1520px;
+     height: 700px;
+     z-index: -1;
+
+     img {
+        width: 1520px;
+        height: 700px;
+        object-fit: cover;
+     }
+
+}
+
+
+
+#twonav {
+    display: flex;
+    flex-direction: row;
+    width: 1520px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background-color: rgb(248, 248, 248);
+
+
+    a {
+    font-family: "ALK Sanet", sans-serif;
+    font-weight: 700;
+    color: rgb(77, 77, 77);
+    font-size: 18px;
+    text-decoration: none;
+    }
+
+    a:hover {
+        color: rgb(40, 142, 115);
+        font-size: 20px;
+        transition-duration: 0.1s;
+    }
+
+}
+
+
+#main {
+    width: 1520px;
+
+    #imgs {
+        display: flex;
+        flex-direction: row;
+        width: 500px;
+        height: 400px;
+        margin-left: 20px;
+
+        img {
+         width: 500px;
+        height: 400px;
+        object-fit: cover;
+        }
+    }
+}

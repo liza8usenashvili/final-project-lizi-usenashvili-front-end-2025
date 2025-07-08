@@ -1,0 +1,183 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+nav {
+  width: 1520px;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(228, 247, 243));
+  border-bottom: 2px solid rgb(95, 161, 150);
+  z-index: 10;
+}
+nav h1 {
+  font-family: "BPG Mikheil Stefane", sans-serif;
+  font-size: 65px;
+  vertical-align: top;
+  margin-left: 80px;
+  margin-top: 10px;
+  opacity: 100%;
+  font-weight: 900;
+  color: rgb(58, 58, 58);
+}
+nav h1:hover {
+  font-size: 75px;
+  transition-duration: 2s;
+  color: rgb(0, 72, 48);
+}
+nav #atag {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-right: 40px;
+  margin-top: 30px;
+  vertical-align: top;
+}
+nav #atag a {
+  text-decoration: none;
+  font-family: "BPG Mikheil Stefane", sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+  color: rgb(77, 77, 77);
+}
+nav #atag a:hover {
+  color: rgb(32, 157, 115);
+}
+nav #atag #active {
+  color: rgb(0, 141, 106);
+}
+nav #search {
+  display: flex;
+  flex-direction: row;
+}
+nav #search #lupa {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(61, 163, 150);
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+nav #search #lupa i {
+  font-size: 24px;
+  color: rgb(0, 58, 51);
+  position: absolute;
+}
+nav #search #lupa:hover {
+  background-color: rgb(75, 195, 155);
+}
+nav #search input {
+  height: 40px;
+  width: 300px;
+  border-radius: 10px;
+  border-color: rgb(190, 197, 195);
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  vertical-align: top;
+  margin-top: 20px;
+}
+
+header {
+  position: relative;
+  width: 1520px;
+  height: 700px;
+  z-index: -1;
+}
+header img {
+  width: 1520px;
+  height: 700px;
+  object-fit: cover;
+}
+
+#twonav {
+  display: flex;
+  flex-direction: row;
+  width: 1520px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  background-color: rgb(248, 248, 248);
+}
+#twonav a {
+  font-family: "ALK Sanet", sans-serif;
+  font-weight: 700;
+  color: rgb(77, 77, 77);
+  font-size: 18px;
+  text-decoration: none;
+}
+#twonav a:hover {
+  color: rgb(40, 142, 115);
+  font-size: 20px;
+  transition-duration: 0.1s;
+}
+
+#main {
+  width: 1520px;
+}
+#main #imgs {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height: 400px;
+  margin-left: 20px;
+}
+#main #imgs img {
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+}/*# sourceMappingURL=style.css.map */
