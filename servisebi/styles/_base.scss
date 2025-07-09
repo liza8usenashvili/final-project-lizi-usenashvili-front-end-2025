@@ -1,0 +1,292 @@
+nav {
+    width: 1520px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(228, 247, 243));
+    border-bottom: 2px solid rgb(95, 161, 150);
+    z-index: 10;
+
+    
+    h1 {
+        font-family: "BPG Mikheil Stefane", sans-serif;
+        font-size: 70px;
+        vertical-align: top;
+        margin-left: 80px;
+        margin-top: 10px;
+        opacity: 100%;
+        font-weight: 900;
+        color: rgb(58, 58, 58);
+    }
+
+h1:hover {
+    font-size: 75px;
+    transition-duration: 2s;
+    color:rgb(0, 72, 48);
+}
+
+    #atag {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        margin-right: 40px;
+        margin-top: 30px;
+        vertical-align: top;
+
+
+            a {
+        text-decoration: none;
+        font-family: "BPG Mikheil Stefane", sans-serif;
+        font-weight: 800;
+        font-size: 22px;
+        color: rgb(77, 77, 77);
+    }
+
+         a:hover{
+          color: rgb(32, 157, 115);
+        }
+
+        #active {
+            color: rgb(0, 141, 106);
+        }
+
+
+    }
+
+
+
+#search {
+display: flex;
+flex-direction: row;
+
+#lupa {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(61, 163, 150);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 20px;
+
+    i {
+        font-size: 24px;
+        color: rgb(0, 58, 51);
+        position: absolute;
+    }
+}
+
+   #lupa:hover {
+        background-color: rgb(75, 195, 155);
+    }
+
+
+input {
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border-color: rgb(190, 197, 195);
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    vertical-align: top;
+    margin-top: 20px;
+}
+}
+
+}
+
+
+
+
+header {
+width: 1520px;
+display: flex;
+flex-direction: row;
+gap: 50px;
+justify-content: center;
+margin-top: 30px;
+
+#gidebi {
+   width: 350px;
+   height: 200px;
+   background-image: linear-gradient(to bottom right, rgb(240, 252, 255), rgb(217, 229, 255));
+   border-radius: 10px;
+   
+
+   &:hover {
+   box-shadow: 10px 10px 15px 4px #8c8ba9;
+   transition-duration: 0.2s;
+   }
+
+   h1 {
+    font-family: "ALK Sanet", sans-serif;
+    font-weight: 600;
+    color: rgb(62, 70, 109);
+    font-size: 36px;
+    margin-top: 20px;
+    margin-left: 20px;      
+    }
+
+    p {
+    font-weight: 600;
+    color: rgb(94, 105, 159);
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 280px;
+    }
+
+}
+#sastumroebi {
+   width: 350px;
+   height: 200px;
+   background-image: linear-gradient(to bottom right, rgb(255, 240, 253), rgb(239, 221, 255));
+   border-radius: 10px;
+   position: relative;
+
+   &:hover {
+   box-shadow: 10px 10px 15px 4px #a98ba5;
+   transition-duration: 0.2s;
+   }
+
+     h1 {
+    font-family: "ALK Sanet", sans-serif;
+    font-weight: 600;
+    color: rgb(104, 62, 109);
+    font-size: 36px;
+    margin-top: 20px;
+    margin-left: 20px;      
+    }
+
+        p {
+    font-weight: 600;
+    color: rgb(147, 94, 159);
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 280px;
+    }
+
+}
+#turebi {
+   width: 350px;
+   height: 200px;
+   background-image: linear-gradient(to bottom right, rgb(235, 255, 246), rgb(217, 249, 255));
+   border-radius: 10px;
+
+
+   &:hover {
+   box-shadow: 10px 10px 15px 4px #8ba99d;
+   transition-duration: 0.2s;
+   }
+
+     h1 {
+    font-family: "ALK Sanet", sans-serif;
+    font-weight: 600;
+    color: rgb(62, 109, 109);
+    font-size: 36px;
+    margin-top: 20px;
+    margin-left: 20px;      
+    }
+
+        p {
+    font-weight: 600;
+    color: rgb(94, 153, 159);
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 280px;
+    }
+
+
+}
+
+a{
+    text-decoration: none;
+}
+
+}
+
+
+
+main {
+    width: 1520px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+
+ .div {
+display: flex;
+flex-direction: row;
+gap: 50px;
+justify-content: center;
+    
+ 
+    img {
+        width: 400px;
+        height: 250px;
+        object-fit: cover;
+    }
+}
+}
+
+
+   footer {
+    width: 1520px;
+    height: 300px;
+    margin-top: 150px;
+    background-color: rgb(67, 155, 137);
+    display: flex;
+    flex-direction: row;
+
+    #erti {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 50px;
+        margin-left: 150px;
+
+        a{
+            text-decoration: none;
+            color: white;
+            font-family: "ALK Sanet", sans-serif;
+            font-size: 20px;
+            width: 200px;
+        }
+    } 
+
+    #ori {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 50px;
+        margin-left: 150px;
+
+        a{
+            text-decoration: none;
+            color: white;
+            font-family: "ALK Sanet", sans-serif;
+            font-size: 20px;
+        }
+    }
+
+
+
+     img {
+       width: 100px;
+       height: 100px;
+       margin-left: 600px;
+       margin-top: 40px;
+    
+    }
+    
+       }
+

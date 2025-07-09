@@ -66,7 +66,7 @@ nav {
 }
 nav h1 {
   font-family: "BPG Mikheil Stefane", sans-serif;
-  font-size: 65px;
+  font-size: 70px;
   vertical-align: top;
   margin-left: 80px;
   margin-top: 10px;
@@ -370,6 +370,10 @@ main #abzaciotxi #imgs img:hover {
   border-radius: 5px;
   display: flex;
 }
+#mun .bro:hover {
+  box-shadow: 10px 10px 15px 4px #757575;
+  transition-duration: 0.2s;
+}
 #mun .bro .foto {
   position: absolute;
   width: 300px;
@@ -464,6 +468,10 @@ main #abzaciotxi #imgs img:hover {
   border-radius: 5px;
   display: flex;
 }
+#ravnaxot .card:hover {
+  box-shadow: 10px 10px 15px 4px #757575;
+  transition-duration: 0.2s;
+}
 #ravnaxot img {
   position: absolute;
   width: 300px;
@@ -513,4 +521,46 @@ main #abzaciotxi #imgs img:hover {
   flex-direction: row;
   gap: 40px;
   justify-content: center;
+}
+
+footer {
+  width: 1520px;
+  height: 300px;
+  margin-top: 150px;
+  background-color: rgb(67, 155, 137);
+  display: flex;
+  flex-direction: row;
+}
+footer #erti {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+footer #erti a {
+  text-decoration: none;
+  color: white;
+  font-family: "ALK Sanet", sans-serif;
+  font-size: 20px;
+  width: 200px;
+}
+footer #ori {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+footer #ori a {
+  text-decoration: none;
+  color: white;
+  font-family: "ALK Sanet", sans-serif;
+  font-size: 20px;
+}
+footer img {
+  width: 100px;
+  height: 100px;
+  margin-left: 600px;
+  margin-top: 40px;
 }/*# sourceMappingURL=style.css.map */
