@@ -1,0 +1,149 @@
+nav {
+  width: 1533px;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(228, 247, 243));
+  border-bottom: 2px solid rgb(95, 161, 150);
+  z-index: 10;
+}
+nav h1 {
+  font-family: "BPG Mikheil Stefane", sans-serif;
+  font-size: 60px;
+  vertical-align: top;
+  margin-left: 80px;
+  margin-top: 10px;
+  opacity: 100%;
+  font-weight: 900;
+  color: rgb(58, 58, 58);
+}
+nav h1:hover {
+  font-size: 75px;
+  transition-duration: 2s;
+  color: rgb(0, 72, 48);
+}
+nav #atag {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-right: 40px;
+  margin-top: 30px;
+  vertical-align: top;
+}
+nav #atag a {
+  text-decoration: none;
+  font-family: "BPG Mikheil Stefane", sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+  color: rgb(77, 77, 77);
+}
+nav #atag a:hover {
+  color: rgb(32, 157, 115);
+}
+nav #atag #active {
+  color: rgb(0, 141, 106);
+}
+nav #search {
+  display: flex;
+  flex-direction: row;
+}
+nav #search #lupa {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(61, 163, 150);
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+nav #search #lupa i {
+  font-size: 24px;
+  color: rgb(0, 58, 51);
+  position: absolute;
+}
+nav #search #lupa:hover {
+  background-color: rgb(75, 195, 155);
+}
+nav #search input {
+  height: 40px;
+  width: 300px;
+  border-radius: 10px;
+  border-color: rgb(190, 197, 195);
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  vertical-align: top;
+  margin-top: 20px;
+}
+
+main {
+  width: 1520px;
+}
+main #block {
+  margin: auto;
+  margin-top: 40px;
+  width: 1400px;
+  height: 500px;
+  background-image: linear-gradient(to bottom right, rgb(10, 114, 87), rgb(9, 92, 106));
+  display: flex;
+  flex-direction: row;
+}
+main #block #contact {
+  display: flex;
+  flex-direction: column;
+}
+main #block #contact h1 {
+  font-family: "ALK Sanet", sans-serif;
+  color: white;
+  font-size: 60px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+main #block #contact #txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 200px;
+  margin-left: 80px;
+  background-color: rgb(79, 154, 129);
+}
+main #block #contact #txt p {
+  color: white;
+  font-size: 20px;
+}
+main #input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-left: 200px;
+}
+main #input h1 {
+  font-family: "ALK Sanet", sans-serif;
+  color: rgb(196, 236, 232);
+}
+main #input input {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+}
+main #input textarea {
+  margin-top: 30px;
+  width: 500px;
+  height: 200px;
+  border-radius: 5px;
+}
+main #input button {
+  margin-top: 30px;
+  width: 80px;
+  height: 40px;
+  background-color: rgb(60, 153, 122);
+  border-radius: 10px;
+}/*# sourceMappingURL=style.css.map */
