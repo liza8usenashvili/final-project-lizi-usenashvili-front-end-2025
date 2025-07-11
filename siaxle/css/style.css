@@ -1,5 +1,5 @@
 nav {
-  width: 1533px;
+  width: 1520px;
   height: 90px;
   display: flex;
   flex-direction: row;
@@ -82,74 +82,86 @@ nav #search input {
   margin-top: 20px;
 }
 
-main {
-  width: 1520px;
+#news {
+  display: flex;
+  flex-direction: column;
 }
-main #block {
-  margin: auto;
+#news h2 {
+  font-size: 18px;
+  color: rgb(122, 122, 141);
+  font-weight: 700;
   margin-top: 40px;
+  margin-left: 80px;
+  font-family: "BPG Algeti", sans-serif;
+}
+#news h1 {
+  font-family: "ALK Sanet", sans-serif;
+  margin-left: 80px;
+  margin-top: 30px;
+  color: rgb(71, 71, 85);
+  font-weight: 700;
+}
+#news p {
+  color: rgb(102, 102, 121);
+  font-weight: 700;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 60px;
   width: 1400px;
-  height: 500px;
-  background-image: linear-gradient(to bottom right, rgb(10, 114, 87), rgb(9, 92, 106));
+  font-family: "BPG Algeti", sans-serif;
+  font-size: 20px;
+}
+#news #pics {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+#news #pics img {
+  width: 350px;
+  height: 400px;
+  object-fit: cover;
+}
+
+footer {
+  width: 1520px;
+  height: 300px;
+  margin-top: 80px;
+  background-color: rgb(67, 155, 137);
   display: flex;
   flex-direction: row;
 }
-main #block #contact {
+footer #erti {
   display: flex;
   flex-direction: column;
+  gap: 10px;
+  margin-top: 50px;
+  margin-left: 150px;
 }
-main #block #contact h1 {
+footer #erti a {
+  text-decoration: none;
+  color: white;
   font-family: "ALK Sanet", sans-serif;
-  color: white;
-  font-size: 60px;
-  margin-left: 50px;
-  margin-bottom: 30px;
+  font-size: 20px;
+  width: 200px;
 }
-main #block #contact #txt {
+footer #ori {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 350px;
-  height: 200px;
-  margin-left: 80px;
-  background-image: linear-gradient(to bottom right, rgb(53, 177, 144), rgb(59, 117, 171));
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px 2px #04535a;
+  gap: 10px;
+  margin-top: 50px;
+  margin-left: 150px;
 }
-main #block #contact #txt:hover {
-  box-shadow: 10px 10px 15px 4px #04535a;
-  transition-duration: 0.2s;
-}
-main #block #contact #txt p {
+footer #ori a {
+  text-decoration: none;
   color: white;
+  font-family: "ALK Sanet", sans-serif;
   font-size: 20px;
 }
-main #input {
-  display: flex;
-  flex-direction: column;
+footer img {
+  width: 100px;
+  height: 100px;
+  margin-left: 600px;
   margin-top: 40px;
-  margin-left: 200px;
-}
-main #input h1 {
-  font-family: "ALK Sanet", sans-serif;
-  color: rgb(196, 236, 232);
-}
-main #input input {
-  width: 300px;
-  height: 40px;
-  border-radius: 5px;
-}
-main #input textarea {
-  margin-top: 30px;
-  width: 500px;
-  height: 200px;
-  border-radius: 5px;
-}
-main #input button {
-  margin-top: 30px;
-  width: 80px;
-  height: 40px;
-  background-color: rgb(0, 227, 151);
-  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,5 +1,5 @@
 nav {
-    width: 1533px;
+    width: 1520px;
     height: 90px;
     display: flex;
     flex-direction: row;
@@ -101,92 +101,104 @@ input {
 
 }
 
+$big-font:"ALK Sanet", sans-serif;
+$small-font:"BPG Algeti", sans-serif;
+
+#news {
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+       font-size: 18px;
+        color: rgb(122, 122, 141);
+        font-weight: 700;
+        margin-top: 40px;
+        margin-left: 80px;
+        font-family: $small-font;
+    }
+
+    h1 {
+      font-family: $big-font;
+      margin-left: 80px;
+      margin-top: 30px;
+      color: rgb(71, 71, 85);
+      font-weight: 700;
+    }
+
+    p {
+      color: rgb(102, 102, 121);
+      font-weight: 700;
+      margin-top: 50px;
+      margin-left: 50px;
+      margin-bottom: 60px;
+      width: 1400px;
+      font-family: $small-font;
+      font-size: 20px;
+    }
+
+    #pics {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+        margin-bottom: 60px;
+
+        img {
+            width: 350px;
+            height: 400px;
+            object-fit: cover;
+        }
+    }
+}
 
 
-
-main {
+      footer {
     width: 1520px;
-
-#block {
-    margin: auto;
-    margin-top: 40px;
-    width: 1400px;
-    height: 500px;
-    background-image: linear-gradient(to bottom right, rgb(10, 114, 87), rgb(9, 92, 106));
+    height: 300px;
+    margin-top: 80px;
+    background-color: rgb(67, 155, 137);
     display: flex;
     flex-direction: row;
 
-    #contact {
+    #erti {
         display: flex;
         flex-direction: column;
+        gap: 10px;
+        margin-top: 50px;
+        margin-left: 150px;
 
-
-        h1 {
-       font-family: "ALK Sanet", sans-serif; 
-       color: white;
-       font-size: 60px;
-      margin-left: 50px;
-      margin-bottom: 30px;
-    }
-
-    #txt{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 350px;
-        height: 200px;
-        margin-left: 80px;
-        background-image: linear-gradient(to bottom right, rgb(53, 177, 144), rgb(59, 117, 171));
-        border-radius: 10px;
-        box-shadow: 5px 5px 5px 2px #04535a;
-
-        &:hover {
-         box-shadow: 10px 10px 15px 4px #04535a;
-         transition-duration: 0.2s;
+        a{
+            text-decoration: none;
+            color: white;
+            font-family: "ALK Sanet", sans-serif;
+            font-size: 20px;
+            width: 200px;
         }
-
-    p {
-        color: white;
-        font-size: 20px;
     } 
 
+    #ori {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 50px;
+        margin-left: 150px;
+
+        a{
+            text-decoration: none;
+            color: white;
+            font-family: "ALK Sanet", sans-serif;
+            font-size: 20px;
+        }
     }
-    
-}
-}
 
-#input {
-    display: flex;
-    flex-direction: column;
-    margin-top: 40px;
-    margin-left: 200px;
+
+
+     img {
+       width: 100px;
+       height: 100px;
+       margin-left: 600px;
+       margin-top: 40px;
     
-    h1{
-        font-family: "ALK Sanet", sans-serif; 
-       color: rgb(196, 236, 232);
     }
 
-input {
-width: 300px;
-height: 40px;
-border-radius: 5px;
-}
-
-textarea {
-    margin-top: 30px;
-    width: 500px;
-    height: 200px;
-    border-radius: 5px;
-}
-
-button {
-    margin-top: 30px;
-    width: 80px;
-    height: 40px;
-    background-color: rgb(0, 227, 151);
-    border-radius: 10px;
-}
-}
-
-}
+       }

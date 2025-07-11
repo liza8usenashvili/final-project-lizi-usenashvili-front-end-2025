@@ -53,7 +53,7 @@ table {
   border-spacing: 0;
 }
 
-nav {
+#firstnav {
   width: 1520px;
   height: 90px;
   display: flex;
@@ -65,7 +65,7 @@ nav {
   border-bottom: 2px solid rgb(95, 161, 150);
   z-index: 10;
 }
-nav h1 {
+#firstnav h1 {
   font-family: "BPG Mikheil Stefane", sans-serif;
   font-size: 60px;
   vertical-align: top;
@@ -75,12 +75,12 @@ nav h1 {
   font-weight: 900;
   color: rgb(58, 58, 58);
 }
-nav h1:hover {
+#firstnav h1:hover {
   font-size: 75px;
   transition-duration: 2s;
   color: rgb(0, 72, 48);
 }
-nav #atag {
+#firstnav #atag {
   display: flex;
   flex-direction: row;
   gap: 50px;
@@ -88,24 +88,24 @@ nav #atag {
   margin-top: 30px;
   vertical-align: top;
 }
-nav #atag a {
+#firstnav #atag a {
   text-decoration: none;
   font-family: "BPG Mikheil Stefane", sans-serif;
   font-weight: 800;
   font-size: 22px;
   color: rgb(77, 77, 77);
 }
-nav #atag a:hover {
+#firstnav #atag a:hover {
   color: rgb(32, 157, 115);
 }
-nav #atag #active {
+#firstnav #atag #active {
   color: rgb(0, 141, 106);
 }
-nav #search {
+#firstnav #search {
   display: flex;
   flex-direction: row;
 }
-nav #search #lupa {
+#firstnav #search #lupa {
   width: 40px;
   height: 40px;
   background-color: rgb(61, 163, 150);
@@ -117,15 +117,15 @@ nav #search #lupa {
   border-radius: 10px;
   margin-top: 20px;
 }
-nav #search #lupa i {
+#firstnav #search #lupa i {
   font-size: 24px;
   color: rgb(0, 58, 51);
   position: absolute;
 }
-nav #search #lupa:hover {
+#firstnav #search #lupa:hover {
   background-color: rgb(75, 195, 155);
 }
-nav #search input {
+#firstnav #search input {
   height: 40px;
   width: 300px;
   border-radius: 10px;
@@ -149,55 +149,60 @@ header img {
   object-fit: cover;
 }
 
-#twonav {
+#secondnav {
+  position: sticky;
+  top: 90px;
+  z-index: 10;
+}
+#secondnav #twonav {
   display: flex;
   flex-direction: row;
   width: 1520px;
-  height: 80px;
+  height: 60px;
   justify-content: center;
   align-items: center;
   gap: 200px;
   background-color: rgb(248, 248, 248);
 }
-#twonav a {
+#secondnav #twonav a {
   font-family: "ALK Sanet", sans-serif;
   font-weight: 700;
   color: rgb(77, 77, 77);
   font-size: 18px;
   text-decoration: none;
 }
-#twonav a:hover {
+#secondnav #twonav a:hover {
   color: rgb(40, 142, 115);
   font-size: 20px;
   transition-duration: 0.1s;
 }
 
-main {
+article {
   margin-top: 100px;
   margin-left: 150px;
   display: flex;
   flex-direction: column;
 }
-main #abzaci {
+article #abzaci {
   display: flex;
   flex-direction: row;
 }
-main #abzaci #text {
+article #abzaci #text {
   width: 750px;
 }
-main #abzaci #text h1 {
+article #abzaci #text h1 {
   font-family: "ALK Sanet", sans-serif;
   font-weight: 600;
   color: rgb(75, 75, 75);
 }
-main #abzaci #text p {
+article #abzaci #text p {
   font-family: "BPG Algeti", sans-serif;
   font-weight: 700;
   margin-top: 40px;
   font-size: 18px;
   color: rgb(116, 116, 116);
 }
-main #info {
+article #info {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -210,132 +215,132 @@ main #info {
   border-radius: 30px;
   scroll-padding-top: 40px;
 }
-main #info div {
+article #info div {
   display: flex;
   flex-direction: row;
   width: 300px;
   border-bottom: 2px solid rgb(162, 162, 162);
 }
-main #info div p {
+article #info div p {
   margin-left: 20px;
   font-size: 16px;
   font-weight: 700;
   color: rgb(130, 130, 130);
 }
-main #info div i {
+article #info div i {
   font-size: 30px;
   color: rgb(18, 155, 126);
 }
-main #info div .number {
+article #info div .number {
   font-size: 16px;
   font-weight: 700;
   color: rgb(73, 73, 73);
 }
-main #abzaciori {
+article #abzaciori {
   display: flex;
   flex-direction: row;
   margin-top: 80px;
 }
-main #abzaciori #textori {
+article #abzaciori #textori {
   width: 750px;
 }
-main #abzaciori #textori h1 {
+article #abzaciori #textori h1 {
   font-family: "ALK Sanet", sans-serif;
   font-weight: 600;
   color: rgb(75, 75, 75);
 }
-main #abzaciori #textori p {
+article #abzaciori #textori p {
   font-family: "BPG Algeti", sans-serif;
   font-weight: 700;
   margin-top: 20px;
   font-size: 18px;
   color: rgb(116, 116, 116);
 }
-main #abzaciori #imgs {
+article #abzaciori #imgs {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-main #abzaciori #imgs img {
+article #abzaciori #imgs img {
   width: 400px;
   height: 200px;
   object-fit: cover;
   margin-left: 100px;
   border-radius: 30px;
 }
-main #abzaciori #imgs img:hover {
+article #abzaciori #imgs img:hover {
   height: 300px;
   transition-duration: 2s;
 }
-main #abzacisami {
+article #abzacisami {
   display: flex;
   flex-direction: row;
   margin-top: 80px;
 }
-main #abzacisami #textsami {
+article #abzacisami #textsami {
   width: 750px;
 }
-main #abzacisami #textsami h1 {
+article #abzacisami #textsami h1 {
   font-family: "ALK Sanet", sans-serif;
   font-weight: 600;
   color: rgb(75, 75, 75);
 }
-main #abzacisami #textsami p {
+article #abzacisami #textsami p {
   font-family: "BPG Algeti", sans-serif;
   font-weight: 700;
   margin-top: 20px;
   font-size: 18px;
   color: rgb(116, 116, 116);
 }
-main #abzacisami #imgs {
+article #abzacisami #imgs {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-main #abzacisami #imgs img {
+article #abzacisami #imgs img {
   width: 400px;
   height: 200px;
   object-fit: cover;
   margin-left: 100px;
   border-radius: 30px;
 }
-main #abzacisami #imgs img:hover {
+article #abzacisami #imgs img:hover {
   height: 300px;
   transition-duration: 2s;
 }
-main #abzaciotxi {
+article #abzaciotxi {
   display: flex;
   flex-direction: row;
   margin-top: 80px;
 }
-main #abzaciotxi #textotxi {
+article #abzaciotxi #textotxi {
   width: 750px;
 }
-main #abzaciotxi #textotxi h1 {
+article #abzaciotxi #textotxi h1 {
   font-family: "ALK Sanet", sans-serif;
   font-weight: 600;
   color: rgb(75, 75, 75);
 }
-main #abzaciotxi #textotxi p {
+article #abzaciotxi #textotxi p {
   font-family: "BPG Algeti", sans-serif;
   font-weight: 700;
   margin-top: 20px;
   font-size: 18px;
   color: rgb(116, 116, 116);
 }
-main #abzaciotxi #imgs {
+article #abzaciotxi #imgs {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-main #abzaciotxi #imgs img {
+article #abzaciotxi #imgs img {
   width: 400px;
   height: 200px;
   object-fit: cover;
   margin-left: 100px;
   border-radius: 30px;
 }
-main #abzaciotxi #imgs img:hover {
+article #abzaciotxi #imgs img:hover {
   height: 300px;
   transition-duration: 2s;
 }
