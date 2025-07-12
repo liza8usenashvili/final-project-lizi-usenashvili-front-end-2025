@@ -7,4 +7,13 @@
 @import "base";
 
 @import "mixins";
+@import "media-queries";
 
+
+
+@media #{$mobile} {
+    @import 'mobile';
+}
+@media #{$tablet} {
+    @import 'tablet';
+}
