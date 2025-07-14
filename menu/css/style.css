@@ -1,1 +1,18 @@
-/*# sourceMappingURL=style.css.map */
+nav {
+  display: flex;
+  flex-direction: column;
+}
+nav #atag {
+  margin-left: 30px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+nav #atag a {
+  text-decoration: none;
+  font-family: "BPG Mikheil Stefane", sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+  color: rgb(77, 77, 77);
+}/*# sourceMappingURL=style.css.map */

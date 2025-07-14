@@ -574,9 +574,9 @@ footer img {
   margin-top: 40px;
 }
 
-@media screen and (min-device-width: 340px) and (max-device-width: 767px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
   #firstnav {
-    width: 767px;
+    width: 400px;
     height: 70px;
     display: flex;
     flex-direction: row;
@@ -592,6 +592,11 @@ footer img {
     vertical-align: top;
     margin-left: 20px;
     margin-top: 10px;
+  }
+  #firstnav h1:hover {
+    font-size: 40px;
+    transition-duration: 0s;
+    color: rgb(0, 72, 48);
   }
   #firstnav #atag {
     display: none;
@@ -629,13 +634,969 @@ footer img {
   }
   header {
     position: relative;
-    width: 767px;
+    width: 400px;
     height: 200px;
     z-index: -1;
   }
   header img {
-    width: 767px;
+    width: 400px;
     height: 200px;
     object-fit: cover;
+  }
+  #secondnav {
+    position: sticky;
+    top: 70px;
+    z-index: 10;
+    width: 400px;
+  }
+  #secondnav #twonav {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: rgb(248, 248, 248);
+  }
+  #secondnav #twonav a {
+    font-family: "ALK Sanet", sans-serif;
+    font-weight: 700;
+    color: rgb(77, 77, 77);
+    font-size: 14px;
+    text-decoration: none;
+  }
+  #secondnav #twonav a:hover {
+    color: rgb(40, 142, 115);
+    font-size: 14px;
+    transition-duration: 0.1s;
+  }
+  article {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  article #abzaci {
+    display: flex;
+    flex-direction: column;
+  }
+  article #abzaci #text {
+    width: 340px;
+  }
+  article #abzaci #text h1 {
+    font-family: "ALK Sanet", sans-serif;
+    font-weight: 600;
+    color: rgb(75, 75, 75);
+    font-size: 18px;
+  }
+  article #abzaci #text p {
+    font-family: "BPG Algeti", sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgb(116, 116, 116);
+  }
+  article #info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 0px;
+    width: 300px;
+    height: 180px;
+    background-image: linear-gradient(to bottom right, rgb(233, 230, 252), rgb(255, 243, 226));
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    scroll-padding-top: 40px;
+  }
+  article #info div {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    border-bottom: 2px solid rgb(162, 162, 162);
+  }
+  article #info div p {
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(130, 130, 130);
+  }
+  article #info div i {
+    font-size: 20px;
+    color: rgb(18, 155, 126);
+  }
+  article #info div .number {
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(73, 73, 73);
+  }
+  article #abzaciori {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  article #abzaciori #textori {
+    width: 350px;
+  }
+  article #abzaciori #textori h1 {
+    font-family: "ALK Sanet", sans-serif;
+    font-weight: 600;
+    color: rgb(75, 75, 75);
+    font-size: 18px;
+  }
+  article #abzaciori #textori p {
+    font-family: "BPG Algeti", sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 12px;
+    color: rgb(116, 116, 116);
+  }
+  article #abzaciori #imgs {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  article #abzaciori #imgs img {
+    width: 110px;
+    height: 100px;
+    object-fit: cover;
+    margin-left: 0px;
+    border-radius: 30px;
+  }
+  article #abzaciori #imgs img:hover {
+    height: 200px;
+    transition-duration: 2s;
+  }
+  article #abzacisami {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  article #abzacisami #textsami {
+    width: 340px;
+  }
+  article #abzacisami #textsami h1 {
+    font-family: "ALK Sanet", sans-serif;
+    font-weight: 600;
+    color: rgb(75, 75, 75);
+    font-size: 18px;
+  }
+  article #abzacisami #textsami p {
+    font-family: "BPG Algeti", sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 12px;
+    color: rgb(116, 116, 116);
+  }
+  article #abzacisami #imgs {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  article #abzacisami #imgs #meotxefoto {
+    display: none;
+  }
+  article #abzacisami #imgs img {
+    width: 110px;
+    height: 100px;
+    object-fit: cover;
+    margin-left: 0px;
+    border-radius: 30px;
+  }
+  article #abzacisami #imgs img:hover {
+    height: 150px;
+    transition-duration: 2s;
+  }
+  article #abzaciotxi {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  article #abzaciotxi #textotxi {
+    width: 340px;
+  }
+  article #abzaciotxi #textotxi h1 {
+    font-family: "ALK Sanet", sans-serif;
+    font-weight: 600;
+    color: rgb(75, 75, 75);
+    font-size: 18px;
+  }
+  article #abzaciotxi #textotxi p {
+    font-family: "BPG Algeti", sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(116, 116, 116);
+    font-size: 12px;
+  }
+  article #abzaciotxi #imgs {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  article #abzaciotxi #imgs img {
+    width: 110px;
+    height: 100px;
+    object-fit: cover;
+    margin-left: 0px;
+    border-radius: 30px;
+  }
+  article #abzaciotxi #imgs img:hover {
+    height: 150px;
+    transition-duration: 2s;
+  }
+  #mun {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 10px;
+    width: 400px;
+  }
+  #mun h1 {
+    font-family: "ALK Sanet", sans-serif;
+    font-weight: 600;
+    color: rgb(75, 75, 75);
+    margin-left: 40px;
+    font-size: 20px;
+    height: 20px;
+  }
+  #mun #mtliani {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 400px;
+    justify-content: center;
+  }
+  #mun #mtliani #erti {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    width: 150px;
+  }
+  #mun #mtliani .bro {
+    width: 170px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 5px 5px 10px 2px #8b8b8b;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+  }
+  #mun #mtliani .bro:hover {
+    box-shadow: 10px 10px 15px 4px #757575;
+    transition-duration: 0.2s;
+  }
+  #mun #mtliani .bro .foto {
+    position: absolute;
+    width: 170px;
+    height: 50px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  #mun #mtliani .bro .gerbi {
+    width: 30px;
+    height: 35px;
+    z-index: 2;
+    margin-left: 69px;
+    margin-top: 30px;
+    border-radius: 5px;
+    position: absolute;
+  }
+  #mun #mtliani .bro .gerbi:hover {
+    scale: none;
+    transition-duration: 0s;
+  }
+  #mun #mtliani .bro p {
+    font-family: "BPG Algeti", sans-serif;
+    font-weight: 700;
+    margin-top: 70px;
+    font-size: 12px;
+    color: rgb(0, 153, 120);
+    margin: none;
+    z-index: 8;
+  }
+  #mun #mtliani .bro p:hover {
+    font-size: 12px;
+    transition-duration: 0.5s;
+  }
+  #mun #mtliani #ori {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: none;
+    width: 170px;
+  }
+  #ruka {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  #ruka h1 {
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-family: "ALK Sanet", sans-serif;
+    font-weight: 600;
+    color: rgb(75, 75, 75);
+    font-size: 20px;
+  }
+  #ruka iframe {
+    width: 400px;
+    height: 250px;
+  }
+  #ravnaxot {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-top: 60px;
+  }
+  #ravnaxot h1 {
+    font-family: "ALK Sanet", sans-serif;
+    font-weight: 600;
+    color: rgb(75, 75, 75);
+    margin-left: 40px;
+    font-size: 20px;
+  }
+  #ravnaxot #cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 40px;
+    margin-left: 40px;
+  }
+  #ravnaxot #one {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: none;
+    width: 200px;
+  }
+  #ravnaxot .card {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 5px 5px 10px 2px #8b8b8b;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    display: flex;
+  }
+  #ravnaxot .card:hover {
+    box-shadow: 10px 10px 15px 4px #757575;
+    transition-duration: 0.2s;
+  }
+  #ravnaxot img {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  #ravnaxot h2 {
+    font-family: "ALK Sanet", sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: rgb(47, 47, 47);
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 10px;
+    width: 300px;
+  }
+  #ravnaxot h2:hover {
+    color: rgb(0, 113, 79);
+  }
+  #ravnaxot p {
+    font-family: "ALK Sanet", sans-serif;
+    color: rgb(47, 47, 47);
+    position: absolute;
+    margin-left: 9px;
+    margin-top: 150px;
+    font-size: 12px;
+    font-weight: 800;
+  }
+  #ravnaxot p:hover {
+    color: rgb(0, 130, 91);
+  }
+  #ravnaxot h3 {
+    font-family: "ALK Sanet", sans-serif;
+    color: rgb(47, 47, 47);
+    position: absolute;
+    margin-left: 10px;
+    font-weight: 800;
+    margin-top: 180px;
+    font-size: 10px;
+  }
+  #ravnaxot h3:hover {
+    color: rgb(0, 141, 112);
+  }
+  #ravnaxot .two {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: none;
+  }
+  footer {
+    width: 400px;
+    height: 650px;
+    margin-top: 150px;
+    background-color: rgb(67, 155, 137);
+    display: flex;
+    flex-direction: column;
+  }
+  footer #erti {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  footer #erti a {
+    text-decoration: none;
+    color: white;
+    font-family: "ALK Sanet", sans-serif;
+    font-size: 18px;
+    width: 200px;
+  }
+  footer #ori {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  footer #ori a {
+    text-decoration: none;
+    color: white;
+    font-family: "ALK Sanet", sans-serif;
+    font-size: 18px;
+  }
+  footer img {
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 30px;
+  }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #firstnav {
+    width: 768px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: none;
+    position: sticky;
+    top: 0;
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(228, 247, 243));
+    border-bottom: 2px solid rgb(95, 161, 150);
+    z-index: 10;
+  }
+  #firstnav h1 {
+    font-size: 40px;
+    vertical-align: top;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  #firstnav h1:hover {
+    font-size: 40px;
+    transition-duration: 0s;
+    color: rgb(0, 72, 48);
+  }
+  #firstnav #atag {
+    display: none;
+  }
+  #firstnav #atag a {
+    display: none;
+  }
+  #firstnav #search {
+    display: flex;
+    flex-direction: row;
+  }
+  #firstnav #search #lupa {
+    display: none;
+  }
+  #firstnav #search #bars {
+    display: unset;
+    font-size: 24px;
+    color: rgb(0, 58, 51);
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 20px;
+  }
+  #firstnav #search input {
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    border-color: rgb(190, 197, 195);
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 450px;
+  }
+  header {
+    position: relative;
+    width: 768px;
+    height: 200px;
+    z-index: -1;
+  }
+  header img {
+    width: 768px;
+    height: 200px;
+    object-fit: cover;
+  }
+  #secondnav {
+    position: sticky;
+    top: 70px;
+    z-index: 10;
+    width: 768px;
+  }
+  #secondnav #twonav {
+    display: flex;
+    flex-direction: row;
+    width: 768px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: rgb(248, 248, 248);
+  }
+  #secondnav #twonav a {
+    font-family: "ALK Sanet", sans-serif;
+    font-weight: 700;
+    color: rgb(77, 77, 77);
+    font-size: 14px;
+    text-decoration: none;
+  }
+  #secondnav #twonav a:hover {
+    color: rgb(40, 142, 115);
+    font-size: 14px;
+    transition-duration: 0.1s;
+  }
+  article {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  article #abzaci {
+    display: flex;
+    flex-direction: row;
+  }
+  article #abzaci #text {
+    width: 340px;
+  }
+  article #abzaci #text h1 {
+    font-family: "ALK Sanet", sans-serif;
+    font-weight: 600;
+    color: rgb(75, 75, 75);
+    font-size: 18px;
+  }
+  article #abzaci #text p {
+    font-family: "BPG Algeti", sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgb(116, 116, 116);
+  }
+  article #info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 40px;
+    width: 300px;
+    height: 180px;
+    background-image: linear-gradient(to bottom right, rgb(233, 230, 252), rgb(255, 243, 226));
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    scroll-padding-top: 40px;
+  }
+  article #info div {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    border-bottom: 2px solid rgb(162, 162, 162);
+  }
+  article #info div p {
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(130, 130, 130);
+  }
+  article #info div i {
+    font-size: 20px;
+    color: rgb(18, 155, 126);
+  }
+  article #info div .number {
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(73, 73, 73);
+  }
+  article #abzaciori {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  article #abzaciori #textori {
+    width: 750px;
+  }
+  article #abzaciori #textori h1 {
+    font-family: "ALK Sanet", sans-serif;
+    font-weight: 600;
+    color: rgb(75, 75, 75);
+    font-size: 18px;
+  }
+  article #abzaciori #textori p {
+    font-family: "BPG Algeti", sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 12px;
+    color: rgb(116, 116, 116);
+  }
+  article #abzaciori #imgs {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  article #abzaciori #imgs img {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    margin-left: 0px;
+    border-radius: 30px;
+  }
+  article #abzaciori #imgs img:hover {
+    height: 200px;
+    transition-duration: 2s;
+  }
+  article #abzacisami {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  article #abzacisami #textsami {
+    width: 740px;
+  }
+  article #abzacisami #textsami h1 {
+    font-family: "ALK Sanet", sans-serif;
+    font-weight: 600;
+    color: rgb(75, 75, 75);
+    font-size: 18px;
+  }
+  article #abzacisami #textsami p {
+    font-family: "BPG Algeti", sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 12px;
+    color: rgb(116, 116, 116);
+  }
+  article #abzacisami #imgs {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  article #abzacisami #imgs #meotxefoto {
+    display: none;
+  }
+  article #abzacisami #imgs img {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    margin-left: 0px;
+    border-radius: 30px;
+  }
+  article #abzacisami #imgs img:hover {
+    height: 150px;
+    transition-duration: 2s;
+  }
+  article #abzaciotxi {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  article #abzaciotxi #textotxi {
+    width: 740px;
+  }
+  article #abzaciotxi #textotxi h1 {
+    font-family: "ALK Sanet", sans-serif;
+    font-weight: 600;
+    color: rgb(75, 75, 75);
+    font-size: 18px;
+  }
+  article #abzaciotxi #textotxi p {
+    font-family: "BPG Algeti", sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(116, 116, 116);
+    font-size: 12px;
+  }
+  article #abzaciotxi #imgs {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  article #abzaciotxi #imgs img {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    margin-left: 0px;
+    border-radius: 30px;
+  }
+  article #abzaciotxi #imgs img:hover {
+    height: 150px;
+    transition-duration: 2s;
+  }
+  #mun {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 10px;
+    width: 400px;
+  }
+  #mun h1 {
+    font-family: "ALK Sanet", sans-serif;
+    font-weight: 600;
+    color: rgb(75, 75, 75);
+    margin-left: 40px;
+    font-size: 20px;
+    height: 20px;
+  }
+  #mun #mtliani {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 400px;
+    justify-content: center;
+  }
+  #mun #mtliani #erti {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    width: 150px;
+  }
+  #mun #mtliani .bro {
+    width: 170px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 5px 5px 10px 2px #8b8b8b;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+  }
+  #mun #mtliani .bro:hover {
+    box-shadow: 10px 10px 15px 4px #757575;
+    transition-duration: 0.2s;
+  }
+  #mun #mtliani .bro .foto {
+    position: absolute;
+    width: 170px;
+    height: 50px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  #mun #mtliani .bro .gerbi {
+    width: 30px;
+    height: 35px;
+    z-index: 2;
+    margin-left: 69px;
+    margin-top: 30px;
+    border-radius: 5px;
+    position: absolute;
+  }
+  #mun #mtliani .bro .gerbi:hover {
+    scale: none;
+    transition-duration: 0s;
+  }
+  #mun #mtliani .bro p {
+    font-family: "BPG Algeti", sans-serif;
+    font-weight: 700;
+    margin-top: 70px;
+    font-size: 12px;
+    color: rgb(0, 153, 120);
+    margin: none;
+    z-index: 8;
+  }
+  #mun #mtliani .bro p:hover {
+    font-size: 12px;
+    transition-duration: 0.5s;
+  }
+  #mun #mtliani #ori {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: none;
+    width: 170px;
+  }
+  #ruka {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  #ruka h1 {
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-family: "ALK Sanet", sans-serif;
+    font-weight: 600;
+    color: rgb(75, 75, 75);
+    font-size: 20px;
+  }
+  #ruka iframe {
+    width: 400px;
+    height: 250px;
+  }
+  #ravnaxot {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-top: 60px;
+  }
+  #ravnaxot h1 {
+    font-family: "ALK Sanet", sans-serif;
+    font-weight: 600;
+    color: rgb(75, 75, 75);
+    margin-left: 40px;
+    font-size: 20px;
+  }
+  #ravnaxot #cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 40px;
+    margin-left: 40px;
+  }
+  #ravnaxot #one {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: none;
+    width: 200px;
+  }
+  #ravnaxot .card {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 5px 5px 10px 2px #8b8b8b;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    display: flex;
+  }
+  #ravnaxot .card:hover {
+    box-shadow: 10px 10px 15px 4px #757575;
+    transition-duration: 0.2s;
+  }
+  #ravnaxot img {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  #ravnaxot h2 {
+    font-family: "ALK Sanet", sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: rgb(47, 47, 47);
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 10px;
+    width: 300px;
+  }
+  #ravnaxot h2:hover {
+    color: rgb(0, 113, 79);
+  }
+  #ravnaxot p {
+    font-family: "ALK Sanet", sans-serif;
+    color: rgb(47, 47, 47);
+    position: absolute;
+    margin-left: 9px;
+    margin-top: 150px;
+    font-size: 12px;
+    font-weight: 800;
+  }
+  #ravnaxot p:hover {
+    color: rgb(0, 130, 91);
+  }
+  #ravnaxot h3 {
+    font-family: "ALK Sanet", sans-serif;
+    color: rgb(47, 47, 47);
+    position: absolute;
+    margin-left: 10px;
+    font-weight: 800;
+    margin-top: 180px;
+    font-size: 10px;
+  }
+  #ravnaxot h3:hover {
+    color: rgb(0, 141, 112);
+  }
+  #ravnaxot .two {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: none;
+  }
+  footer {
+    width: 400px;
+    height: 650px;
+    margin-top: 150px;
+    background-color: rgb(67, 155, 137);
+    display: flex;
+    flex-direction: column;
+  }
+  footer #erti {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  footer #erti a {
+    text-decoration: none;
+    color: white;
+    font-family: "ALK Sanet", sans-serif;
+    font-size: 18px;
+    width: 200px;
+  }
+  footer #ori {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  footer #ori a {
+    text-decoration: none;
+    color: white;
+    font-family: "ALK Sanet", sans-serif;
+    font-size: 18px;
+  }
+  footer img {
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 30px;
   }
 }/*# sourceMappingURL=style.css.map */
