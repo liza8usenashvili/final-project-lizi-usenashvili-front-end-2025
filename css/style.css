@@ -574,7 +574,7 @@ footer img {
   margin-top: 40px;
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 400px) {
   #firstnav {
     width: 400px;
     height: 70px;
@@ -1089,7 +1089,7 @@ footer img {
     margin-top: 30px;
   }
 }
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media screen and (min-device-width: 768px) and (max-device-width: 800px) {
   #firstnav {
     width: 800px;
     height: 70px;
