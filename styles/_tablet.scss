@@ -1,6 +1,6 @@
 
 #firstnav {
-    width: 768px;
+    width: 800px;
     height: 70px;
     display: flex;
     flex-direction: row;
@@ -10,7 +10,8 @@
     background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(228, 247, 243));
     border-bottom: 2px solid rgb(95, 161, 150);
     z-index: 10;
-    
+     overflow: hidden;
+    box-sizing: border-box;
 
     
     h1 {
@@ -27,11 +28,22 @@
 }
 
     #atag {
-        display: none;
+        display: unset;
+          display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin-right: 40px;
+        margin-top: 30px;
+        vertical-align: top;
 
 
             a {
-        display: none;
+        display: unset;
+        text-decoration: none;
+        font-family: "BPG Mikheil Stefane", sans-serif;
+        font-weight: 800;
+        font-size: 16px;
+        color: rgb(77, 77, 77);
     }
 
 
@@ -42,18 +54,19 @@
 #search {
 display: flex;
 flex-direction: row;
+width: 200px;
 
 #lupa {
  display: none;
 }
 
 #bars {
-  display: unset;
+  display: none;
     font-size: 24px;
     color: rgb(0, 58, 51);
      position: absolute;
-     margin-left: 180px;
-     margin-top: 20px;
+     margin-left: 10px;
+     margin-top: 0px;
 }
 
 
@@ -78,12 +91,12 @@ input {
 
 header {
      position: relative;
-     width:768px;
+     width:800px;
      height: 200px;
      z-index: -1;
 
      img {
-        width: 768px;
+        width: 800px;
         height: 200px;
         object-fit: cover;
      }
@@ -96,11 +109,11 @@ header {
 position: sticky;
 top:70px;
 z-index: 10;
-width: 768px;
+width: 800px;
 #twonav {
     display: flex;
     flex-direction: row;
-    width: 768px;
+    width: 800px;
     height: 60px;
     justify-content: center;
     align-items: center;
@@ -360,7 +373,7 @@ img:hover {
     justify-content: center;
     margin-top: 50px;
     gap: 10px;
-    width: 400px;
+    width: 800px;
     
 
     h1 {
@@ -374,19 +387,19 @@ img:hover {
 
        #mtliani {
         display: flex;
-        flex-direction: row;
+        flex-direction:column;
         gap: 30px;
-        width: 400px;
+        width: 800px;
         justify-content: center;
     
 
     #erti {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         gap: 10px;
         margin-top: 10px;
         justify-content: center;
-        width: 150px;
+        width: 800px;
     }
 
         .bro {
@@ -449,18 +462,18 @@ img:hover {
 
         #ori {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         gap: 10px;
         margin-top: 10px;
         justify-content: none;
-        width: 170px;
+        width: 800px;
         }
     }
  }
 
 
  #ruka {
-        width: 400px;
+        width: 800px;
         display: flex;
         flex-direction: column;
         margin-top: 50px;
@@ -473,7 +486,7 @@ img:hover {
         }
 
         iframe {
-            width: 400px;
+            width: 800px;
             height: 250px;
         }
         
@@ -485,7 +498,7 @@ img:hover {
       #ravnaxot {
         display: flex;
         flex-direction: column;
-        width: 400px;
+        width: 800px;
         margin-top: 60px;
         
 
@@ -501,20 +514,22 @@ img:hover {
         justify-content: center;
         margin-top: 30px;
         gap: 40px;
-        margin-left: 40px;
+        margin-left: 0px;
+        width: 800px;
         }
 
         #one {
             display: flex;
-            flex-direction: column;
-            gap: 30px;
+            flex-direction: row;
+            gap: 10px;
             justify-content: none;
-            width: 200px;
+            width: 800px;
+        
             
         }
 
        .card {
-        width: 300px;
+        width: 170px;
         height: 200px;
         background-color: white;
         box-shadow: 5px 5px 10px 2px #8b8b8b;
@@ -523,6 +538,8 @@ img:hover {
         flex-direction: column;
         border-radius: 5px;
         display: flex;
+        overflow: hidden;
+        box-sizing: border-box;
 
         &:hover {
             box-shadow: 10px 10px 15px 4px #757575;
@@ -532,7 +549,7 @@ img:hover {
 
         img {
             position: absolute;
-            width: 300px;
+            width: 170px;
             height: 100px;
             object-fit: cover;
             border-top-left-radius: 5px;
@@ -541,13 +558,13 @@ img:hover {
 
         h2 {
             font-family: "ALK Sanet", sans-serif;
-            font-size: 14px;
+            font-size: 12px;
             font-weight: 800;
             color: rgb(47, 47, 47);
             position:absolute;
             margin-top: 110px;
             margin-left: 10px;
-            width: 300px;
+            width: 150px;
             
             &:hover {
                 color: rgb(0, 113, 79)
@@ -560,7 +577,7 @@ img:hover {
             position: absolute;
             margin-left: 9px;
             margin-top:150px;
-            font-size: 12px;
+            font-size: 10px;
             font-weight: 800;
 
             &:hover {
@@ -575,7 +592,7 @@ img:hover {
             margin-left: 10px;
             font-weight: 800;
             margin-top: 180px;
-            font-size: 10px;
+            font-size: 9px;
 
             &:hover {
                 color: rgb(0, 141, 112)
@@ -584,9 +601,10 @@ img:hover {
 
 .two {
     display: flex;
-    flex-direction: column;
-    gap: 40px;
+    flex-direction: row;
+    gap: 10px;
     justify-content: none;
+      
     
 }
 
@@ -595,12 +613,12 @@ img:hover {
      
 
  footer {
-    width: 400px;
-    height: 650px;
+    width: 800px;
+    height: 300px;
     margin-top: 150px;
     background-color: rgb(67, 155, 137);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
     #erti {
         display: flex;
@@ -638,7 +656,7 @@ img:hover {
      img {
        width: 100px;
        height: 100px;
-       margin-left: 40px;
+       margin-left: 80px;
        margin-top: 30px;
     
     }
